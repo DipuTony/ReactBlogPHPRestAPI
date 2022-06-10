@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@IMPORT url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+margin : 0 ;
+font-family : " Quicksand " ;
+color : #333 ;
+margin-left: 5px;
+margin-right: 5px;
+}
+.navbar{
+padding :20px ;
+display :flex ;
+align-items : center ;
+max-width : 900px;
+margin : 0 auto ;
+border-bottom : 1px solid
+}
+.navbar h1 {
+color : #f1356d ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar .links {
+  margin-left : auto ;
+}
+.navbar a {
+margin-left : 16px ;
+text-decoration : none ;
+padding : 6px ;
+}
+
+.navbar a:hover {
+color : #f1356d ;
+}
+.content {
+max-width : 900px ;
+margin : 40px auto ;
+padding : 290x;
+}
+
+.border-below{
+  border-bottom : 1px solid;
+  padding-top: 10px;
+}
+
+.blogposts{
+  margin: 10px;
+}
+.blogpost-title{
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #f1356d;
+}
+.blogppost-post{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blogpost-author{
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: right;
 }

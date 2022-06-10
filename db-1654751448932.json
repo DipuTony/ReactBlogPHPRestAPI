@@ -1,0 +1,16 @@
+{
+  "blog": [
+    {
+      "title": "My First Blog",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex accusantium nisi fugiat eligendi saepe quia fuga aperiam error, nulla, ut autem nam architecto vitae ipsum, consectetur odit adipisci. Perferendis, excepturi?",
+      "author": "Dipu",
+      "id": 1
+    },
+    {
+      "title": "About Secound Blog",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex accusantium nisi fugiat eligendi saepe quia fuga aperiam error, nulla, ut autem nam architecto vitae ipsum, consectetur odit adipisci. Perferendis, excepturi?",
+      "author": "Yama Mosi",
+      "id": 2
+    }
+  ]
+}
