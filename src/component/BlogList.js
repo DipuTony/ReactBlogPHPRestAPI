@@ -4,7 +4,6 @@ import React from 'react'
 export default function BlogList (props) {
 const blog = props.blog; // Get Data from Home.js through props
 const title = props.title;
-const handleDelete = props.handleDelete;
 
   return (
     <div className='blog-list'>

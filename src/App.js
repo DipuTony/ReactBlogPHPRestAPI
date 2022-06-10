@@ -1,10 +1,9 @@
 import Navbar from './component/Navbar';
 import Home from './component/Home';
+import React from 'react';
 
 function App() {
-  // const title = "Welome to Our Class";
-  // const like = 20;
-  // const link = "http://quantainfotech.com/";
+
 
   return (
     <div className="App">

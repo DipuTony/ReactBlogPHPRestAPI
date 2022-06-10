@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useState } from "react";
 import BlogList from "./BlogList";
 
@@ -8,7 +9,8 @@ const [IsPending, setIsPending] = useState(true);
 
 useEffect(() =>{
     // fetch('https://mocki.io/v1/c20185fb-cca9-4e31-9104-391515061019')
-    fetch('http://localhost/api/restapi/items/read')
+    // fetch('http://localhost/api/restapi/items/read')
+    fetch('https://demo.quantainfotech.com/reactblogapi/items/read')
     .then(res => {
         return res.json();
     })
@@ -21,10 +23,12 @@ useEffect(() =>{
 
 
     return(
+        <>
         <div className="home">
             {IsPending && <div> Loading.... </div> }
             {blog && <BlogList blog={blog} title="All Blogs Posts"/> }
         </div>
+        </>
     );
 }
 
