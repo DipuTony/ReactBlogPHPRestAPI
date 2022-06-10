@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "//ReactBlogPHPRestAPI/precache-manifest.c5eeef343ddf5434ab0ae98343307462.js"
+  "/ReactBlogPHPRestAPI/precache-manifest.81dde2e755c4a1ac572a3aa0d6cad7fd.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("//ReactBlogPHPRestAPI/index.html", {
+workbox.routing.registerNavigationRoute("/ReactBlogPHPRestAPI/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
